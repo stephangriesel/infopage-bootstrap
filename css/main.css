@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: "Lato", sans-serif;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+nav {
+  background: #352ba5;
+}
+
+header {
+  margin-top: 40px;
+  padding: 0 20px;
+  font-family: "Lato", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #13124f;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 280px;
+  color: #fff;
+  width: 100%;
+}
+
+header h1 {
+  font-weight: 400;
+  margin: 0;
+}
+
+header button {
+  color: #fff;
+  background: #f61067;
+  font-weight: 600;
+  border: none;
+  font-size: 0.7rem;
+  width: 100px;
+  padding: 5px;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+section .info-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 30px 10px;
+}
+
+section .info-section h2 {
+  padding: 15px 0;
+  border-bottom: rgba(144, 144, 165, 0.363) solid 2px;
+}
+
+section .info-section p {
+  padding: 10px 0;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+section .alert-msg {
+  background-color: #9090a5;
+  color: #fff;
+  padding: 13px;
+  font-size: 0.7rem;
+  margin-top: 20px;
+}
+
+section .center-align {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 100%;
+      -ms-flex: 100%;
+          flex: 100%;
+}
+
+section .msg-btn {
+  margin: 15px 0;
+}
+
+section button {
+  background: #f61067;
+  border: none;
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 700;
+  margin: 10px 0;
+  padding: 5px;
+}
+
+section button .number {
+  background: #352ba5;
+  padding: 3px;
+  margin: 0 3px;
+  border-radius: 20px;
+}
+
+section .form {
+  background: #13124f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+section .form p {
+  color: #fff;
+  font-size: 0.8rem;
+  padding: 2px 10px;
+}
+
+section .form h6 {
+  background: #9090a5;
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 15px 10px;
+}
+
+section .form input[type="text"] {
+  outline: none;
+  color: #9090a5;
+  background: #1b1b6c;
+  border-top: 2px solid #9090a5;
+  border-bottom: 3px solid #9090a5;
+  border-left: 0;
+  border-right: 0;
+  padding: 2px 10px;
+}
+
+section .form .form-input {
+  padding: 2px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 0.8rem;
+}
+
+section .form .opt-out {
+  background-color: #352ba5;
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 10px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+section .vote-box {
+  border: 1px solid #9090a5;
+  margin: 20px 0;
+  padding: 10px;
+}
+
+section .vote-box .progress-bar {
+  position: relative;
+  background: #f61067;
+  height: 10px;
+  width: 100%;
+  z-index: 1;
+}
+
+section .vote-box .progress-bar-fill {
+  position: absolute;
+  background: #2ad392;
+  height: 10px;
+  width: 90%;
+  z-index: -1;
+}
+
+section .vote-box .voting-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+section .vote-box .voting-btn button {
+  width: 50%;
+}
+
+section .vote-box .voting-btn .left {
+  background: #f61067;
+  margin-right: 5px;
+}
+
+section .vote-box .voting-btn .right {
+  margin-left: 5px;
+  background: none;
+  border: 2px solid #2ad392;
+  color: #2ad392;
+}
+
+footer {
+  padding: 0 20px;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 0.8rem;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #13124f;
+  margin-top: auto;
+  height: 56px;
+}
+/*# sourceMappingURL=main.css.map */
